@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="parent">
+        <div class="bank-card">
+            <div class="card-front">
+                <div class="card-logo">Vigen`s Bank
+                    <div class=balance>*</div>
+                </div>
+                <div class="card-chip"></div>
+                <div class="card-number">**** **** **** 1234</div>
+                <div class="card-info">
+                    <div class="card-holder">Mr. Name Surname</div>
+                    <div class="card-expiry">12/24</div>
+                </div>
+            </div>
+            <div class="card-back" id=showCvv class="cvv">
+                <div class="card-cvv">CVV ***</div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class=a password=1234 id=yourPass value='1234' onclick=yourPass()>Show</button> <br>
+            <button id=addMoney class=b onclick=addMoney() disabled>Deposit</button> <br>
+            <button id=getMoney class=c onclick=getMoney() disabled>Widthdraw</button>
+        </div>
+        <div class="shkala">
+            <form onsubmit='event.preventDefault(); return filterTransaction(event)'>
+                <input required type="text" name="from" placeholder="From">
+                <input required type="text" name="to" placeholder="To">
+                <button class="filterBtn" type="submit">Filter</button><br>
+                <select name="dateList" id="">
+                    <option value="Mutq">Incoming</option>
+                    <option value="Elq">Outgoing</option>
+                    <option value='All'>All</option>
+                </select>
+                <input type="date" name="fromData" placeholder="from" value = "2023-09-07">
+                <input type="date" name="toData" placeholder="to" value = "2023-09-18">
+            </form>
+        </div>
+        <div class='transaction'></div>
+        <div id="context-menu" class="context-menu"></div>
+        <br>
+        <button id=history class=d onclick=getHistory() disabled>Show History</button>
+    </div>
+    <script src="context-menu.js"></script>
+    <script src="type.js"></script>
+</body>
+</html>

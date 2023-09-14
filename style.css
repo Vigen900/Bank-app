@@ -1,0 +1,474 @@
+.balance {
+   border: 2px solid rgb(130, 125, 104);
+   width: 230px;
+   height: 47px;
+   text-align: center;
+   margin: 0 auto;
+   font-size: 40px;
+   margin-bottom: 10px;
+}
+
+/* .a {
+   display: inline-block;
+   padding: 13px 18px;
+   font-size: 20px;
+   cursor: pointer;
+   text-align: center;
+   text-decoration: none;
+   outline: none;
+   color: #fff;
+   background-color: #4CAF50;
+   border: none;
+   border-radius: 10px;
+   box-shadow: 0 7px #999;
+
+} */
+
+.a {
+   background-color: #0652df; 
+   padding: 15px 30px;
+   margin-bottom: 10px;
+   margin-top: 12px;
+   background-image: url(https://cdn-icons-png.flaticon.com/512/6803/6803345.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 30px;
+   color: #f0f0f0;
+   padding-right: 45px;
+   background-position: 75px 9px;
+   border-radius: 7px;
+   font-size: 14px;
+}
+
+.b {
+   background-color: #03d45d;
+   padding: 15px 30px;
+   margin-bottom: 10px;
+   margin-top: 12px;
+   color: #f0f0f0;
+   background-image: url(https://static.thenounproject.com/png/309258-200.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 30px;
+   padding-right: 45px;
+   background-position: 85px 10px;
+   border-radius: 7px;
+   font-size: 14px;
+}
+
+.c {
+   background-color: #ff0000;
+   padding: 15px 30px;
+   margin-bottom: 10px;
+   margin-top: 12px;
+   color: #f0f0f0;
+   background-image: url(https://static.thenounproject.com/png/309257-200.png);
+   background-repeat: no-repeat;
+   /* background-position: right; */
+   background-size: 30px;
+   padding-right: 42px;
+   background-position: 98px 10px;
+   border-radius: 7px;
+   font-size: 13px;
+}
+
+.transaction{
+   border: 2px solid black;
+   width: 340px;
+   height: 180px;
+   text-align: center;
+   margin: 0 auto;
+   overflow: auto;
+}
+.d{
+   background-color: #939393;
+   padding: 15px 30px;
+   margin-bottom: 10px;
+   /* margin-top: 120px; */
+   color: #000000;
+   margin-left: 45%;
+   /* background-image: url(https://cdn.icon-icons.com/icons2/1863/PNG/512/history_119048.png); */
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 30px;
+}
+  .transaction{
+   color: rgb(0, 0, 0);
+ } 
+****
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.bank-card {
+    width: 320px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card-front {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/708/629/original/luxury-gold-elegant-background-design-can-be-used-for-premium-royal-party-luxury-poster-background-template-with-vintage-leather-texture-background-for-invitation-card-vector.jpg);
+}
+
+.card-logo {
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-image: url('https://cdn.myportfolio.com/82cc8fcf8ef9b3d862b7efa4ad0d2f02/fe6debc5-754b-42b7-9712-6611e6f85fe6_rw_1920.png?h=c4b1d67f5f8646754b9b41aa9767bf76');
+    background-repeat: no-repeat;
+    background-size: 33px;
+    background-position: right;
+}
+
+.card-chip {
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(45deg, #333 30%, #ddd 70%);
+    margin-bottom: 10px;
+}
+
+.card-number {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.card-holder {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.card-back {
+    height: 60px;
+    background-color: #333;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #c5a800;
+}
+
+.card-cvv {
+    color: #c5a800;
+    font-size: 16px;
+}
+.buttons{
+   display: flex;
+   justify-content: space-around;
+   padding: 10px 500px 20px;
+}
+.transaction{
+   width: 30%;
+   height: 200px;
+}
+.shkala {
+    margin-left: 590px;
+    margin-bottom: 15px;
+}
+ .filterBtn{
+    padding: 6px 20px;
+    margin-bottom: 10px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+    margin-left: 33px;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height: 30px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+    margin-top: -4px;
+}
+
+.filterBtn{
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+.filterDate{
+    background-repeat: no-repeat;
+    background-size: 33px;
+    background-position: right;
+    padding: 20px 17px 10px;
+    background-image: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/filter-512.png')
+}
+
+
+ /* @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap"); */
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+} 
+
+.target {
+    width: 20.8%;
+    height: 100%;
+    /* position: absolute; */
+    top: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    color: rgba(#fff, 0.5);
+    font-size: 2vw;
+}  
+
+.target-light {
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 13%;
+    padding-right: 16.5%;
+    margin-left: 598px;
+    margin-top: -198px;
+}
+
+.target-dark {
+  right: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Context Menu */
+
+.contextMenu {
+  --menu-border: rgba(255, 255, 255, 0.08);
+  --menu-bg: linear-gradient(
+    45deg,
+    rgba(10, 20, 28, 0.2) 0%,
+    rgba(10, 20, 28, 0.7) 100%
+  );
+  --item-border: rgba(255, 255, 255, 0.1);
+  --item-color: #fff;
+  --item-bg-hover: rgba(255, 255, 255, 0.1);
+
+  height: 0;
+  overflow: hidden;
+  background: var(--menu-bg);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  top: var(--top);
+  left: var(--left);
+  animation: menuAnimation 0.4s 0s both;
+  transform-origin: left;
+  list-style: none;
+  margin: 4px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 999999999;
+  box-shadow: 0 0 0 1px var(--menu-border), 0 2px 2px rgb(0 0 0 / 3%),
+    0 4px 4px rgb(0 0 0 / 4%), 0 10px 8px rgb(0 0 0 / 5%),
+    0 15px 15px rgb(0 0 0 / 6%), 0 30px 30px rgb(0 0 0 / 7%),
+    0 70px 65px rgb(0 0 0 / 9%);
+
+  &-item {
+    padding: 4px;
+  }
+
+  &-item[data-divider="top"] {
+    border-top: 1px solid;
+  }
+
+  &-item[data-divider="bottom"] {
+    border-bottom: 1px solid;
+  }
+
+  &-item[data-divider="top-bottom"] {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+  }
+
+  &-item[data-divider] {
+    border-color: var(--item-border);
+  }
+
+  &-button {
+    color: var(--item-color);
+    background: 0;
+    border: 0;
+    white-space: nowrap;
+    width: 100%;
+    border-radius: 4px;
+    padding: 6px 24px 6px 7px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    width: 100%;
+    animation: menuItemAnimation 0.2s 0s both;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--item-bg-hover);
+    }
+  }
+
+  &[data-theme="light"] {
+    --menu-bg: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.45) 0%,
+      rgba(255, 255, 255, 0.85) 100%
+    );
+    --menu-border: rgba(0, 0, 0, 0.08);
+    --item-border: rgba(0, 0, 0, 0.1);
+    --item-color: rgb(10, 20, 28);
+    --item-bg-hover: rgba(10, 20, 28, 0.09);
+  }
+}
+
+@keyframes menuAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  100% {
+    height: var(--height);
+    opacity: 1;
+    border-radius: 8px;
+    transform: scale(1);
+  }
+}
+
+@keyframes menuItemAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.parent-target{
+    display: flex;
+}
+
+.transaction li{
+  padding: 10px 0;
+  border: 1px solid #9b9b9b;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.transaction button{
+  background-color: #00ff37;
+  margin: 5px 8px;
+  font-size: 14px;
+  border: 1.5px solid #555555;
+}
+
+.d {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 16px;
+}
+
+.d:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.d:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
